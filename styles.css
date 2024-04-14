@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+header {
+    padding: 20px;
+    text-align: right;
+}
+
+.designer a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+#shareButton {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.designer a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.designer a:hover {
+    color: #007bff;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    animation: changeColor 20s linear infinite alternate; /* Adding animation to change background color */
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: #ffcc00;
+    }
+    25% {
+        background-color: #ff6699;
+    }
+    50% {
+        background-color: #66ccff;
+    }
+    75% {
+        background-color: #99ff99;
+    }
+    100% {
+        background-color: #ff9933;
+    }
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adding transition effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Changing background color on hover */
+}
+
+#shareButton {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adding transition effect */
+}
+
+#shareButton:hover {
+    background-color: #218838; /* Changing background color on hover */
+}
